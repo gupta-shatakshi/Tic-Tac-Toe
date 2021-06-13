@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <h2 style="text-align: center"><u>TIC-TAC-TOE</u></h2>
+
+<h3> Heyyy there !!!</h3>
+<pre><b>Let's Play a game...
+Relax :)
+Game is simple.</b>
+
+There will be two players :
+Player X (who will start first) and the other one, Player O.
+The first player to get 3 of same marks in a row (up, down, across, or diagonally) will be the winner.
+    </b></pre>
+
+<div class="grid">
+    <button class="grid-item" id="1" onclick="box1(); begin();"></button>
+    <button class="grid-item" id="2" onclick="box2(); begin();"></button>
+    <button class="grid-item" id="3" onclick="box3(); begin();"></button>
+    <button class="grid-item" id="4" onclick="box4(); begin();"></button>
+    <button class="grid-item" id="5" onclick="box5(); begin();"></button>
+    <button class="grid-item" id="6" onclick="box6(); begin();"></button>
+    <button class="grid-item" id="7" onclick="box7(); begin();"></button>
+    <button class="grid-item" id="8" onclick="box8(); begin();"></button>
+    <button class="grid-item" id="9" onclick="box9(); begin();"></button>
+</div>
+
+<h3 style="text-align: center" id="print" on>Player X's turn</h3>
+
+<div id = "restartPosition">
+    <button id="restart" style="width: 100px; height: 40px;" onclick="reset()">RESTART</button>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
